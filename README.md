@@ -1,3 +1,4 @@
 # vk-vezdecod-donations
-iOS приложение
+iOS приложение,
+
 Backend тут -> https://github.com/EgorYakovlevAcc/vkhack
