@@ -302,6 +302,9 @@ private extension DonateCreationViewController {
                     switch result {
                     case .success(let id):
                         self?.networkService.saveImage(image: image, id: id)
+                        DispatchQueue.main.async {
+                            // Open next screen
+                        }
                     case .failure:
                         DispatchQueue.main.async {
                             let alert = UIAlertController(title: "Ошибка сети", message: "Нам очень жаль", preferredStyle: .alert)
