@@ -189,10 +189,11 @@ private extension DonateCreationDetailsViewController {
             case .success(let id):
                 self.networkService.saveImage(image: self.image, id: id)
             case .failure:
-                let alert = UIAlertController()
-                alert.message = "Ошибка сети"
-                alert.addAction(UIAlertAction(title: "Ок", style: .default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+                DispatchQueue.main.async {
+                    let alert = UIAlertController(title: "Ошибка сети", message: "Нам очень жаль", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Ок", style: .default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
             }
         }
     }
