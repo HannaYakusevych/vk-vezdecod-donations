@@ -19,6 +19,19 @@
 		95EBF4F0250C35F200887F0C /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4EF250C35F200887F0C /* UIView+Animation.swift */; };
 		95EBF4F2250C360700887F0C /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4F1250C360700887F0C /* Assembly.swift */; };
 		95EBF4F4250C368A00887F0C /* DonateCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */; };
+		95EBF4F7250C800200887F0C /* CustomDashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4F6250C800200887F0C /* CustomDashedView.swift */; };
+		95EBF4FA250C97DD00887F0C /* TPKeyboardAvoiding in Frameworks */ = {isa = PBXBuildFile; productRef = 95EBF4F9250C97DD00887F0C /* TPKeyboardAvoiding */; };
+		95EBF4FC250C990B00887F0C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4FB250C990B00887F0C /* InputView.swift */; };
+		95EBF4FE250C9D2800887F0C /* ChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4FD250C9D2700887F0C /* ChoiceView.swift */; };
+		95EBF500250C9FCA00887F0C /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4FF250C9FCA00887F0C /* PlaceholderViewController.swift */; };
+		95EBF503250CA87A00887F0C /* DonateCreationViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF502250CA87A00887F0C /* DonateCreationViewBuilder.swift */; };
+		95EBF506250CAA8400887F0C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF505250CAA8400887F0C /* NetworkService.swift */; };
+		95EBF508250CAB4300887F0C /* Donate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF507250CAB4300887F0C /* Donate.swift */; };
+		95EBF50A250CAB4C00887F0C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF509250CAB4C00887F0C /* Post.swift */; };
+		95EBF50C250CB0C400887F0C /* UIImage+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF50B250CB0C400887F0C /* UIImage+Encoding.swift */; };
+		95EBF50E250CB61800887F0C /* DonateCreationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF50D250CB61800887F0C /* DonateCreationDetailsViewController.swift */; };
+		95EBF511250CBDE300887F0C /* SingleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF510250CBDE300887F0C /* SingleChoiceView.swift */; };
+		95EBF514250CCCCD00887F0C /* AYPopupPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 95EBF513250CCCCD00887F0C /* AYPopupPickerView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +48,17 @@
 		95EBF4EF250C35F200887F0C /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		95EBF4F1250C360700887F0C /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 		95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateCreationViewController.swift; sourceTree = "<group>"; };
+		95EBF4F6250C800200887F0C /* CustomDashedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDashedView.swift; sourceTree = "<group>"; };
+		95EBF4FB250C990B00887F0C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		95EBF4FD250C9D2700887F0C /* ChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceView.swift; sourceTree = "<group>"; };
+		95EBF4FF250C9FCA00887F0C /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		95EBF502250CA87A00887F0C /* DonateCreationViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateCreationViewBuilder.swift; sourceTree = "<group>"; };
+		95EBF505250CAA8400887F0C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		95EBF507250CAB4300887F0C /* Donate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donate.swift; sourceTree = "<group>"; };
+		95EBF509250CAB4C00887F0C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		95EBF50B250CB0C400887F0C /* UIImage+Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Encoding.swift"; sourceTree = "<group>"; };
+		95EBF50D250CB61800887F0C /* DonateCreationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateCreationDetailsViewController.swift; sourceTree = "<group>"; };
+		95EBF510250CBDE300887F0C /* SingleChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleChoiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EBF4FA250C97DD00887F0C /* TPKeyboardAvoiding in Frameworks */,
+				95EBF514250CCCCD00887F0C /* AYPopupPickerView in Frameworks */,
 				95EBF4EA250C15E900887F0C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +94,7 @@
 		95EBF4CB250BFF1400887F0C /* VKDonations */ = {
 			isa = PBXGroup;
 			children = (
+				95EBF504250CAA7100887F0C /* Network */,
 				95EBF4F5250C369000887F0C /* Views */,
 				95EBF4D7250BFF1800887F0C /* LaunchScreen.storyboard */,
 				95EBF4DA250BFF1800887F0C /* Info.plist */,
@@ -75,6 +102,7 @@
 				95EBF4E3250C0AC700887F0C /* Extensions+Helpers */,
 				95EBF4D5250BFF1800887F0C /* Assets.xcassets */,
 				95EBF4F1250C360700887F0C /* Assembly.swift */,
+				95EBF4FF250C9FCA00887F0C /* PlaceholderViewController.swift */,
 			);
 			path = VKDonations;
 			sourceTree = "<group>";
@@ -86,6 +114,8 @@
 				95EBF4E6250C0D1F00887F0C /* Strings.swift */,
 				95EBF4ED250C1DA100887F0C /* Tappable.swift */,
 				95EBF4EF250C35F200887F0C /* UIView+Animation.swift */,
+				95EBF4F6250C800200887F0C /* CustomDashedView.swift */,
+				95EBF50B250CB0C400887F0C /* UIImage+Encoding.swift */,
 			);
 			path = "Extensions+Helpers";
 			sourceTree = "<group>";
@@ -93,11 +123,42 @@
 		95EBF4F5250C369000887F0C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95EBF50F250CBDBC00887F0C /* Elements */,
+				95EBF501250CA85E00887F0C /* DonateCreation */,
 				95EBF4E0250C047000887F0C /* DonatesListViewController.swift */,
 				95EBF4EB250C1B6800887F0C /* DonateTypeViewController.swift */,
-				95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		95EBF501250CA85E00887F0C /* DonateCreation */ = {
+			isa = PBXGroup;
+			children = (
+				95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */,
+				95EBF502250CA87A00887F0C /* DonateCreationViewBuilder.swift */,
+				95EBF50D250CB61800887F0C /* DonateCreationDetailsViewController.swift */,
+			);
+			path = DonateCreation;
+			sourceTree = "<group>";
+		};
+		95EBF504250CAA7100887F0C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				95EBF505250CAA8400887F0C /* NetworkService.swift */,
+				95EBF507250CAB4300887F0C /* Donate.swift */,
+				95EBF509250CAB4C00887F0C /* Post.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		95EBF50F250CBDBC00887F0C /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				95EBF4FB250C990B00887F0C /* InputView.swift */,
+				95EBF4FD250C9D2700887F0C /* ChoiceView.swift */,
+				95EBF510250CBDE300887F0C /* SingleChoiceView.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +179,8 @@
 			name = VKDonations;
 			packageProductDependencies = (
 				95EBF4E9250C15E900887F0C /* SnapKit */,
+				95EBF4F9250C97DD00887F0C /* TPKeyboardAvoiding */,
+				95EBF513250CCCCD00887F0C /* AYPopupPickerView */,
 			);
 			productName = VKDonations;
 			productReference = 95EBF4C9250BFF1400887F0C /* VKDonations.app */;
@@ -149,6 +212,8 @@
 			mainGroup = 95EBF4C0250BFF1400887F0C;
 			packageReferences = (
 				95EBF4E8250C15E900887F0C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				95EBF4F8250C97DD00887F0C /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */,
+				95EBF512250CCCCD00887F0C /* XCRemoteSwiftPackageReference "AYPopupPickerView" */,
 			);
 			productRefGroup = 95EBF4CA250BFF1400887F0C /* Products */;
 			projectDirPath = "";
@@ -177,12 +242,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EBF4CD250BFF1400887F0C /* AppDelegate.swift in Sources */,
+				95EBF50E250CB61800887F0C /* DonateCreationDetailsViewController.swift in Sources */,
+				95EBF500250C9FCA00887F0C /* PlaceholderViewController.swift in Sources */,
+				95EBF508250CAB4300887F0C /* Donate.swift in Sources */,
+				95EBF4FE250C9D2800887F0C /* ChoiceView.swift in Sources */,
+				95EBF50C250CB0C400887F0C /* UIImage+Encoding.swift in Sources */,
+				95EBF50A250CAB4C00887F0C /* Post.swift in Sources */,
 				95EBF4F2250C360700887F0C /* Assembly.swift in Sources */,
+				95EBF503250CA87A00887F0C /* DonateCreationViewBuilder.swift in Sources */,
+				95EBF4F7250C800200887F0C /* CustomDashedView.swift in Sources */,
 				95EBF4E5250C0C1900887F0C /* Colors.swift in Sources */,
 				95EBF4EE250C1DA100887F0C /* Tappable.swift in Sources */,
 				95EBF4E7250C0D1F00887F0C /* Strings.swift in Sources */,
+				95EBF511250CBDE300887F0C /* SingleChoiceView.swift in Sources */,
 				95EBF4F4250C368A00887F0C /* DonateCreationViewController.swift in Sources */,
+				95EBF506250CAA8400887F0C /* NetworkService.swift in Sources */,
 				95EBF4E1250C047000887F0C /* DonatesListViewController.swift in Sources */,
+				95EBF4FC250C990B00887F0C /* InputView.swift in Sources */,
 				95EBF4F0250C35F200887F0C /* UIView+Animation.swift in Sources */,
 				95EBF4EC250C1B6800887F0C /* DonateTypeViewController.swift in Sources */,
 			);
@@ -252,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -306,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -323,7 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K882HZY272;
 				INFOPLIST_FILE = VKDonations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,7 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K882HZY272;
 				INFOPLIST_FILE = VKDonations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +462,22 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		95EBF4F8250C97DD00887F0C /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michaeltyson/TPKeyboardAvoiding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.4;
+			};
+		};
+		95EBF512250CCCCD00887F0C /* XCRemoteSwiftPackageReference "AYPopupPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Aiur3908/AYPopupPickerView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -393,6 +485,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 95EBF4E8250C15E900887F0C /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		95EBF4F9250C97DD00887F0C /* TPKeyboardAvoiding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95EBF4F8250C97DD00887F0C /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */;
+			productName = TPKeyboardAvoiding;
+		};
+		95EBF513250CCCCD00887F0C /* AYPopupPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95EBF512250CCCCD00887F0C /* XCRemoteSwiftPackageReference "AYPopupPickerView" */;
+			productName = AYPopupPickerView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

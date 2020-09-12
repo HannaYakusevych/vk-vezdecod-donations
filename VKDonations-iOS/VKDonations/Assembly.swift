@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+final class Assembly {
+    func donateCreationViewController(_ flowType: DonateCreationViewController.FlowType) -> DonateCreationViewController {
+        return DonateCreationViewController(flowType: flowType)
+    }
+}

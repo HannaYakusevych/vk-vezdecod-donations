@@ -1,5 +1,5 @@
 //
-//  DonateCreationViewController.swift
+//  Post.swift
 //  VKDonations
 //
 //  Created by Анна Якусевич on 12.09.2020.

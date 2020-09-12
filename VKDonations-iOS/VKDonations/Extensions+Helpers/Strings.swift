@@ -25,7 +25,9 @@ extension String {
     static let addImage = "Загрузить обложку"
     static let donateName = "Название сбора"
     static let sumTitle = "Сумма, ₽"
+    static let monthlySumTitle = "Сумма в месяц, ₽"
     static let sumPlaceholder = "Сколько нужно собрать?"
+    static let monthlySumPlaceholder = "Сколько нужно в месяц?"
     static let purpose = "Цель"
     static let purposePlaceholder = "Например, лечение человека"
     static let donationDescription = "Описание"
@@ -35,4 +37,19 @@ extension String {
     static let name = "Матвей Правосудов" // Заглушка для автора
     static let nameTitle = "Автор"
     static let continueButton = "Далее"
+    
+    static let additional = "Дополнительно"
+    static let dоnateWillEnd = "Сбор завершится"
+    static let endAfterSum = "Когда соберём сумму"
+    static let endOnDate = "В определенную дату"
+    static let endDate = "Дата окончания"
+    static let chooseDate = "Выберите дату"
+}
+
+extension String {
+    var isNumeric: Bool {
+        guard self.count > 0 else { return false }
+        let nums: Set<Character> = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        return Set(self).isSubset(of: nums)
+    }
 }

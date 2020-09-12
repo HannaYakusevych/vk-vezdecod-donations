@@ -37,6 +37,10 @@ private extension DonateTypeViewController {
         title = .donationType
         
         navigationController?.navigationBar.tintColor = .headerText
+        
+        let item = UIBarButtonItem(title: " ", style: .plain, target: self, action: nil)
+        item.tintColor = .headerTint
+        navigationItem.backBarButtonItem = item
     }
     
     func addMainView() {
@@ -62,7 +66,7 @@ private extension DonateTypeViewController {
         }
         
         let repeatingView = addDonationTypeView(imageName: "calendar_icon", title: .repeatableDonationTitle, subtitle: .repeatableDonationDescription) { [weak self] in
-            let viewController = Assembly().donateCreationViewController(.oneTime)
+            let viewController = Assembly().donateCreationViewController(.repeating)
             self?.navigationController?.pushViewController(viewController, animated: true)
         }
         contentView.addSubview(repeatingView)
