@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,14 @@
 		95EBF4D6250BFF1800887F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EBF4D5250BFF1800887F0C /* Assets.xcassets */; };
 		95EBF4D9250BFF1800887F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EBF4D7250BFF1800887F0C /* LaunchScreen.storyboard */; };
 		95EBF4E1250C047000887F0C /* DonatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4E0250C047000887F0C /* DonatesListViewController.swift */; };
+		95EBF4E5250C0C1900887F0C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4E4250C0C1900887F0C /* Colors.swift */; };
+		95EBF4E7250C0D1F00887F0C /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4E6250C0D1F00887F0C /* Strings.swift */; };
+		95EBF4EA250C15E900887F0C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95EBF4E9250C15E900887F0C /* SnapKit */; };
+		95EBF4EC250C1B6800887F0C /* DonateTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4EB250C1B6800887F0C /* DonateTypeViewController.swift */; };
+		95EBF4EE250C1DA100887F0C /* Tappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4ED250C1DA100887F0C /* Tappable.swift */; };
+		95EBF4F0250C35F200887F0C /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4EF250C35F200887F0C /* UIView+Animation.swift */; };
+		95EBF4F2250C360700887F0C /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4F1250C360700887F0C /* Assembly.swift */; };
+		95EBF4F4250C368A00887F0C /* DonateCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,13 @@
 		95EBF4D8250BFF1800887F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95EBF4DA250BFF1800887F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95EBF4E0250C047000887F0C /* DonatesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonatesListViewController.swift; sourceTree = "<group>"; };
+		95EBF4E4250C0C1900887F0C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		95EBF4E6250C0D1F00887F0C /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		95EBF4EB250C1B6800887F0C /* DonateTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateTypeViewController.swift; sourceTree = "<group>"; };
+		95EBF4ED250C1DA100887F0C /* Tappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tappable.swift; sourceTree = "<group>"; };
+		95EBF4EF250C35F200887F0C /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		95EBF4F1250C360700887F0C /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateCreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EBF4EA250C15E900887F0C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,21 +68,36 @@
 		95EBF4CB250BFF1400887F0C /* VKDonations */ = {
 			isa = PBXGroup;
 			children = (
-				95EBF4E2250C077700887F0C /* Utilities */,
-				95EBF4E0250C047000887F0C /* DonatesListViewController.swift */,
+				95EBF4F5250C369000887F0C /* Views */,
+				95EBF4D7250BFF1800887F0C /* LaunchScreen.storyboard */,
+				95EBF4DA250BFF1800887F0C /* Info.plist */,
+				95EBF4CC250BFF1400887F0C /* AppDelegate.swift */,
+				95EBF4E3250C0AC700887F0C /* Extensions+Helpers */,
 				95EBF4D5250BFF1800887F0C /* Assets.xcassets */,
+				95EBF4F1250C360700887F0C /* Assembly.swift */,
 			);
 			path = VKDonations;
 			sourceTree = "<group>";
 		};
-		95EBF4E2250C077700887F0C /* Utilities */ = {
+		95EBF4E3250C0AC700887F0C /* Extensions+Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				95EBF4D7250BFF1800887F0C /* LaunchScreen.storyboard */,
-				95EBF4DA250BFF1800887F0C /* Info.plist */,
-				95EBF4CC250BFF1400887F0C /* AppDelegate.swift */,
+				95EBF4E4250C0C1900887F0C /* Colors.swift */,
+				95EBF4E6250C0D1F00887F0C /* Strings.swift */,
+				95EBF4ED250C1DA100887F0C /* Tappable.swift */,
+				95EBF4EF250C35F200887F0C /* UIView+Animation.swift */,
 			);
-			path = Utilities;
+			path = "Extensions+Helpers";
+			sourceTree = "<group>";
+		};
+		95EBF4F5250C369000887F0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95EBF4E0250C047000887F0C /* DonatesListViewController.swift */,
+				95EBF4EB250C1B6800887F0C /* DonateTypeViewController.swift */,
+				95EBF4F3250C368A00887F0C /* DonateCreationViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +116,9 @@
 			dependencies = (
 			);
 			name = VKDonations;
+			packageProductDependencies = (
+				95EBF4E9250C15E900887F0C /* SnapKit */,
+			);
 			productName = VKDonations;
 			productReference = 95EBF4C9250BFF1400887F0C /* VKDonations.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +147,9 @@
 				Base,
 			);
 			mainGroup = 95EBF4C0250BFF1400887F0C;
+			packageReferences = (
+				95EBF4E8250C15E900887F0C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 95EBF4CA250BFF1400887F0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EBF4CD250BFF1400887F0C /* AppDelegate.swift in Sources */,
+				95EBF4F2250C360700887F0C /* Assembly.swift in Sources */,
+				95EBF4E5250C0C1900887F0C /* Colors.swift in Sources */,
+				95EBF4EE250C1DA100887F0C /* Tappable.swift in Sources */,
+				95EBF4E7250C0D1F00887F0C /* Strings.swift in Sources */,
+				95EBF4F4250C368A00887F0C /* DonateCreationViewController.swift in Sources */,
 				95EBF4E1250C047000887F0C /* DonatesListViewController.swift in Sources */,
+				95EBF4F0250C35F200887F0C /* UIView+Animation.swift in Sources */,
+				95EBF4EC250C1B6800887F0C /* DonateTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95EBF4E8250C15E900887F0C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95EBF4E9250C15E900887F0C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95EBF4E8250C15E900887F0C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 95EBF4C1250BFF1400887F0C /* Project object */;
 }
